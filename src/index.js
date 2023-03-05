@@ -54,7 +54,7 @@ if (!window.cordova && window.location.protocol === 'file:') {
     'https://aframe.io/docs/0.5.0/introduction/getting-started.html#using-a-local-server.');
 }
 
-require('present'); // Polyfill `performance.now()`.
+// require('present'); // Polyfill `performance.now()`.
 
 // CSS.
 if (utils.device.isBrowserEnvironment) {
@@ -92,7 +92,7 @@ require('./core/a-mixin');
 require('./extras/components/');
 require('./extras/primitives/');
 
-console.log('A-Frame Version: 1.4.1 (Date 2023-02-28, Commit #1773661e)');
+console.log('A-Frame Version: 1.4.1 (Date 2023-03-05, Commit #9f89a099)');
 console.log('THREE Version (https://github.com/supermedium/three.js):',
             pkg.dependencies['super-three']);
 console.log('WebVR Polyfill Version:', pkg.dependencies['webvr-polyfill']);
